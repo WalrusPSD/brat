@@ -18,22 +18,22 @@ const BratGenerator: React.FC = () => {
 
   return (
     <div style={styles.container}>
-      <div style={styles.output}>{text}</div>
-      <div style={styles.controls}>
-        <input
-          type="text"
-          value={text}
-          onChange={handleTextChange}
-          placeholder="Type here..."
-          style={styles.input}
-        />
-        <button onClick={handleDownload} style={styles.button}>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style={styles.icon}>
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-          </svg>
-        </button>
+      <div style={styles.content}>
+        <div style={styles.output}>{text}</div>
+        <div style={styles.controls}>
+          <input
+            type="text"
+            value={text}
+            onChange={handleTextChange}
+            placeholder="Type here..."
+            style={styles.input}
+          />
+          <button onClick={handleDownload} style={styles.button}>
+            Download
+          </button>
+        </div>
       </div>
-      <div style={styles.footer}>by zahir</div>
+      <div style={styles.footer}>by zahir ❤️</div>
       <canvas ref={canvasRef} style={{ display: 'none' }} />
     </div>
   );
