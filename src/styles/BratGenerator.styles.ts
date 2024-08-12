@@ -45,12 +45,8 @@ export const styles: { [key: string]: CSSProperties } = {
     boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
     transition: 'all 0.3s ease',
     marginRight: '10px',
-    backgroundColor: '#a3e600',
+    backgroundColor: '#FFFFFF',
     color: '#000',
-    '::placeholder': {
-      color: '#000',
-      opacity: 1, /* Firefox */
-    },
   },
   button: {
     backgroundColor: '#4a7a00',

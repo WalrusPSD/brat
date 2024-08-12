@@ -26,7 +26,7 @@ const BratGenerator: React.FC = () => {
           type="text"
           value={text}
           onChange={handleTextChange}
-          placeholder="Type here..."
+          placeholder="type here..."
           style={styles.input}
         />
         <button onClick={handleDownload} style={styles.button}>
