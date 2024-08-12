@@ -11,6 +11,7 @@ export const styles: { [key: string]: CSSProperties } = {
     padding: '20px',
     boxSizing: 'border-box',
     backgroundColor: '#8BCF00',
+    fontFamily: 'Arial, sans-serif',
   },
   content: {
     display: 'flex',
@@ -26,6 +27,7 @@ export const styles: { [key: string]: CSSProperties } = {
     transform: 'scale(0.8, 1.03)',
     filter: 'blur(1px) contrast(110%)',
     letterSpacing: '-0.5px',
+    fontFamily: 'Arial, sans-serif',
   },
   controls: {
     display: 'flex',
@@ -47,6 +49,7 @@ export const styles: { [key: string]: CSSProperties } = {
     marginRight: '10px',
     backgroundColor: '#FFFFFF',
     color: '#000',
+    fontFamily: 'Arial, sans-serif',
   },
   button: {
     backgroundColor: '#4a7a00',
@@ -61,11 +64,13 @@ export const styles: { [key: string]: CSSProperties } = {
     filter: 'blur(0.5px) contrast(120%)',
     letterSpacing: '-0.5px',
     textTransform: 'lowercase',
+    fontFamily: 'Arial, sans-serif',
   },
   footer: {
     fontSize: '24px',
     transform: 'scale(0.9, 1.03)',
     filter: 'blur(0.5px) contrast(110%)',
     letterSpacing: '-0.3px',
+    fontFamily: 'Arial, sans-serif',
   },
 };
