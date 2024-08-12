@@ -20,18 +20,18 @@ const BratGenerator: React.FC = () => {
     <div style={styles.container}>
       <div style={styles.content}>
         <div style={styles.output}>{text}</div>
-        <div style={styles.controls}>
-          <input
-            type="text"
-            value={text}
-            onChange={handleTextChange}
-            placeholder="Type here..."
-            style={styles.input}
-          />
-          <button onClick={handleDownload} style={styles.button}>
-            Download
-          </button>
-        </div>
+      </div>
+      <div style={styles.controls}>
+        <input
+          type="text"
+          value={text}
+          onChange={handleTextChange}
+          placeholder="Type here..."
+          style={styles.input}
+        />
+        <button onClick={handleDownload} style={styles.button}>
+          download
+        </button>
       </div>
       <div style={styles.footer}>by zahir ❤️</div>
       <canvas ref={canvasRef} style={{ display: 'none' }} />

@@ -1,12 +1,17 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #8BCF00;
-  }
-  
-  #root {
-    height: 100%;
-    width: 100%;
-  }
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #8BCF00;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+input::placeholder {
+  color: #000 !important;
+  opacity: 1 !important;
+}
