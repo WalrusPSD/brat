@@ -18,7 +18,6 @@ const BratGenerator: React.FC = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>brat generator by zahir</h1>
       <div style={styles.output}>{text}</div>
       <div style={styles.controls}>
         <input
@@ -34,7 +33,7 @@ const BratGenerator: React.FC = () => {
           </svg>
         </button>
       </div>
-      <div style={styles.byline}>by zahir ❤️</div>
+      <div style={styles.footer}>by zahir</div>
       <canvas ref={canvasRef} style={{ display: 'none' }} />
     </div>
   );

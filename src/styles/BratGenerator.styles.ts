@@ -2,20 +2,14 @@ import { CSSProperties } from 'react';
 
 export const styles: { [key: string]: CSSProperties } = {
   container: {
-    backgroundColor: '#8BCF00',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center',
-    height: '100vh',
-    margin: 0,
-    fontFamily: 'Arial, sans-serif',
+    height: '100%',
+    width: '100%',
     padding: '20px',
     boxSizing: 'border-box',
-  },
-  title: {
-    fontSize: '24px',
-    marginBottom: '20px',
   },
   output: {
     fontSize: '48px',
@@ -63,8 +57,10 @@ export const styles: { [key: string]: CSSProperties } = {
     height: '24px',
     fill: 'white',
   },
-  byline: {
-    marginTop: '10px',
-    fontSize: '16px',
+  footer: {
+    fontSize: '48px',
+    transform: 'scale(0.8, 1.03)',
+    filter: 'blur(1px) contrast(110%)',
+    letterSpacing: '-0.5px',
   },
 };
