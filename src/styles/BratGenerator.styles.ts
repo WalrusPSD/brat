@@ -67,10 +67,18 @@ export const styles: { [key: string]: CSSProperties } = {
     fontFamily: 'Arial, sans-serif',
   },
   footer: {
-    fontSize: '24px',
+    fontSize: '20px',
     transform: 'scale(0.9, 1.03)',
     filter: 'blur(0.5px) contrast(110%)',
     letterSpacing: '-0.3px',
     fontFamily: 'Arial, sans-serif',
+    padding: '10px',
   },
+  above_footer: {
+    fontSize: '20px',
+    transform: 'scale(0.9, 1.03)',
+    filter: 'blur(0.5px) contrast(110%)',
+    letterSpacing: '-0.3px',
+    fontFamily: 'Arial, sans-serif',
+  }
 };
